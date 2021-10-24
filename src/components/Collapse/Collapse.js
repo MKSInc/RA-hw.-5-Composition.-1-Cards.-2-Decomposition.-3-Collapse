@@ -26,7 +26,6 @@ function Collapse({ isExpanded, collapsedLabel, expandedLabel, children }) {
   }
 
   useEffect(() => {
-    console.log('useEffict')
     initExpandedHeight();
 
     if (!isOpen) {
@@ -35,7 +34,7 @@ function Collapse({ isExpanded, collapsedLabel, expandedLabel, children }) {
     }
   
     setHeight(expandedHeight);
-  }, [expandedHeight]);
+  }, [expandedHeight, initExpandedHeight, isOpen]);
 
   return (
     <div className={`collapse ${isOpen ? 'collapse_expanded': 'collapse_collapsed'}`}>

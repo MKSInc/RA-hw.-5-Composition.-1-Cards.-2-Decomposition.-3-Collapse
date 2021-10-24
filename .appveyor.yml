@@ -20,6 +20,7 @@ test_script:
   # скрипт тестирования
 
 environment:
+  CI: false
   my_variable:
     secure: AHqZsGNbKL+RxqV2hVEAbGM8RTIGSbxiD1MI16xTYS+IXcuQqLd/6z/LalapwHdt
 
