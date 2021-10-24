@@ -2,6 +2,7 @@
   "name": "ra-hw.-05-composition.-1-cards.-2-decomposition.-3-collapse",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mksinc.github.io/RA-hw.-5-Composition.-1-Cards.-2-Decomposition.-3-Collapse",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
