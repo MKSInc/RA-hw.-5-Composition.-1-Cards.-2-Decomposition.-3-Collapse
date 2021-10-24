@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/RA-hw.-5-Composition.-1-Cards.-2-Decomposition.-3-Collapse/static/css/main.d815029d.chunk.css",
+    "main.js": "/RA-hw.-5-Composition.-1-Cards.-2-Decomposition.-3-Collapse/static/js/main.4a62cb73.chunk.js",
+    "main.js.map": "/RA-hw.-5-Composition.-1-Cards.-2-Decomposition.-3-Collapse/static/js/main.4a62cb73.chunk.js.map",
+    "runtime-main.js": "/RA-hw.-5-Composition.-1-Cards.-2-Decomposition.-3-Collapse/static/js/runtime-main.62179c07.js",
+    "runtime-main.js.map": "/RA-hw.-5-Composition.-1-Cards.-2-Decomposition.-3-Collapse/static/js/runtime-main.62179c07.js.map",
+    "static/js/2.d24af0f4.chunk.js": "/RA-hw.-5-Composition.-1-Cards.-2-Decomposition.-3-Collapse/static/js/2.d24af0f4.chunk.js",
+    "static/js/2.d24af0f4.chunk.js.map": "/RA-hw.-5-Composition.-1-Cards.-2-Decomposition.-3-Collapse/static/js/2.d24af0f4.chunk.js.map",
+    "index.html": "/RA-hw.-5-Composition.-1-Cards.-2-Decomposition.-3-Collapse/index.html",
+    "static/css/main.d815029d.chunk.css.map": "/RA-hw.-5-Composition.-1-Cards.-2-Decomposition.-3-Collapse/static/css/main.d815029d.chunk.css.map",
+    "static/js/2.d24af0f4.chunk.js.LICENSE.txt": "/RA-hw.-5-Composition.-1-Cards.-2-Decomposition.-3-Collapse/static/js/2.d24af0f4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62179c07.js",
+    "static/js/2.d24af0f4.chunk.js",
+    "static/css/main.d815029d.chunk.css",
+    "static/js/main.4a62cb73.chunk.js"
+  ]
+}
