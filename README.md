@@ -1,7 +1,7 @@
 <a name="top"></a>
 
 [![Build status](https://ci.appveyor.com/api/projects/status/p41otbd6y7lqwa7q?svg=true)](https://ci.appveyor.com/project/MKSInc/ra-hw-5-composition-1-cards-2-decomposition-3-coll)
-### [Gh-pages]()
+### [Gh-pages](https://mksinc.github.io/RA-hw.-5-Composition.-1-Cards.-2-Decomposition.-3-Collapse/)
 # 5. Домашнее задание к лекции «Композиция компонентов»
 
 **Перейти к:**  
