@@ -34,7 +34,7 @@ function Collapse({ isExpanded, collapsedLabel, expandedLabel, children }) {
     }
   
     setHeight(expandedHeight);
-  }, [expandedHeight, initExpandedHeight, isOpen]);
+  }, [expandedHeight, isOpen]);
 
   return (
     <div className={`collapse ${isOpen ? 'collapse_expanded': 'collapse_collapsed'}`}>
