@@ -24,7 +24,7 @@ function Collapse({ isExpanded, collapsedLabel, expandedLabel, children }) {
     setExpandedHeight(`${refCollapseText.current.offsetHeight}px`);
     setIsHeightInit(true);
   }
-
+/*
   useEffect(() => {
     initExpandedHeight();
 
@@ -34,7 +34,7 @@ function Collapse({ isExpanded, collapsedLabel, expandedLabel, children }) {
     }
   
     setHeight(expandedHeight);
-  }, []);
+  }, []);*/
 
   return (
     <div className={`collapse ${isOpen ? 'collapse_expanded': 'collapse_collapsed'}`}>
