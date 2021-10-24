@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import './collapse.css';
 import PropTypes from 'prop-types';
 
@@ -19,13 +19,12 @@ function Collapse({ isExpanded, collapsedLabel, expandedLabel, children }) {
   }
 
   // Определение высоты блока с текстом, так как нельзя анимировать от значения 'auto'.
-  
   const initExpandedHeight = () => {
     if (isHeightInit) return;
     setExpandedHeight(`${refCollapseText.current.offsetHeight}px`);
     setIsHeightInit(true);
   }
-/*
+
   useEffect(() => {
     initExpandedHeight();
 
@@ -35,7 +34,7 @@ function Collapse({ isExpanded, collapsedLabel, expandedLabel, children }) {
     }
   
     setHeight(expandedHeight);
-  }, []);*/
+  }, [expandedHeight]);
 
   return (
     <div className={`collapse ${isOpen ? 'collapse_expanded': 'collapse_collapsed'}`}>
